@@ -4,9 +4,9 @@
     font-style: normal;
 }
 
-.container_body {
-    display: flex;
-    flex-direction: column;
+body {
+    /* display: flex;
+    flex-direction: column;*/
     min-height: screen;
     background-color: white;
     margin: 0;
@@ -70,7 +70,7 @@ a:hover {
     flex-direction: row;
     gap: 6rem;
     width: 100%;
-    margin-right: 1000rem;
+
 }
 
 .content_left {
@@ -96,6 +96,7 @@ a:hover {
     height: fit-content;
     border-radius: 0.375rem;
     background-color: #2f327e;
+    margin: 10px;
 }
 
 .content_article h1 {
